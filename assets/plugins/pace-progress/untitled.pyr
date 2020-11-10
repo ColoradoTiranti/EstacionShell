@@ -1,0 +1,24 @@
+# http://docs.python-requests.org/en/master/user/quickstart/
+
+###env
+base_url = 'httpbin.org'
+###env
+
+get(base_url + '/post')
+
+post(
+	'httpbin.org/post',
+	json={'nombre': 'Alejo', 'apellido': 'Carbonari'},
+	fmt='indent',
+	tabname='firstPost'
+)
+
+get(
+	'httpbin.org/get',
+	params={'key': 'value', 'key_2' : 'value2'}
+)
+
+
+
+
+
