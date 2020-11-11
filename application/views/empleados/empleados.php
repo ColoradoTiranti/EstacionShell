@@ -238,7 +238,7 @@ input[type=number] {
                     <img class="card-img-top" style="width: 75%; height: 75%;" src="<?php echo base_url() ?>assets/img_avatar1.png" alt="Card image">
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title">Empleado: <span id="nombreEmpleado">Example Name</span></h4>
+                    <h4 class="card-title">Empleado: <span id="nombreEmpleado"> Nombre </span></h4>
                     <p class="card-text">Válido</p>
                   </div>
                   </div>
